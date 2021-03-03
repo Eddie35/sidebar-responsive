@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.contenido {
+    background-color: rgb(233, 241, 241);
+    min-height: 600px;
+}
+
+.cabecera {
+    background-image:url(images/image-hero-desktop.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 40px;
+}
+
+.logo {
+    color: #fbfafb;    
+}
+
+.menu {
+    color: #f0e9f0;
+    width: 220px;
+}
+
+.menu .nav {
+    display: flex;
+    justify-content: space-between;        
+}
+
+.menu .nav li {
+    list-style: none;
+    font-size: 12px;
+}
+
+
+
+
+
+
